@@ -1,0 +1,45 @@
+* { -webkit-user-select:none; -moz-user-select:none; user-select:none; }
+
+.SecenekIsaret { 
+	position: relative; 
+}
+  
+.SecenekIsaret label {
+	cursor: pointer;
+	font-family: arial;
+	display: block;
+	font-weight:bold;
+}
+    
+.SecenekIsaret label:before {
+	content: "\2717"; 
+	font-size: 16px;
+	background: #c0c0c0;
+	border-radius: 50%;
+	display: inline-block;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+	margin-right: 10px;
+
+	color: gray;
+}
+ 
+.SecenekIsaret input {
+	display: none;
+}
+    
+/*.SecenekIsaret input[type=radio]:not(.hide):checked + label:before { 
+	background: green;
+	content: "\2713"; 
+	color: #fff;
+}*/
+
+.SecenekIsaret input[type=checkbox]:not(.hide):checked + label:before { 
+	background: green;
+	content: "\2713"; 
+	color: #fff;
+}
+
+

@@ -1,0 +1,2 @@
+Kullanici Adi	: Admin
+Sifre		: 123456

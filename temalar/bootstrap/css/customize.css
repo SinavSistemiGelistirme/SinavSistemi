@@ -1,0 +1,55 @@
+@import url("fonts.css");
+
+body { background-color:#F2F2F2 !important; margin-bottom:60px; }
+
+nav { background-color:#444 !important; color: #fff !important; border-radius: 0 !important; border-color: #444 !important }
+
+nav .navbar-header a { color:#fff !important; font-family: 'RobotoCondensed' !important; }
+
+nav li a { color:#fff !important; font-family: 'Roboto' !important; }
+
+#Footer nav p { color: #fff !important; margin: 0; font-family: 'Roboto' !important; }
+
+.TestSonuc { font-family: century gothic; font-size: 16px; font-weight: bold; }
+
+.Dogrular { float: left; margin-right: 10px; color: #12C400; }
+
+.Yanlislar { float: left; margin-right: 10px; color: #E52828; }
+
+.BosCevap { float: left;  margin-right: 10px; color: #2E9AFE; }
+
+.ToplamSoru { float: right; margin-left: 10px; color: #888; }
+
+.Cevaplanan { float: right; margin-left: 10px; color: #888; }
+
+.UyeAyar { border-top: 1px solid #dcdcdc; padding-top:15px; margin-top:14px;}
+
+.SonucTablo { width:70px; text-align: center; vertical-align: middle!important; background-color: #f9f9f9; border-right:2px solid #ecefef; }
+
+.SonucBaslik { text-align: left; width:375px;}
+
+.Sonuc { text-align: center; vertical-align: middle!important; }
+
+.SonucIcerik { text-align: left; vertical-align: middle!important; }
+
+.Dogru { font-weight: bold!important; color: green!important; }
+
+.Yanlis { font-weight: bold!important; color: red!important; }
+
+.Bos { font-weight: bold!important; color: #2E9AFE!important; }
+
+.SonucTable thead { font-family: 'RobotoCondensed' !important; }
+
+.SonucTable tbody { font-family: Arial; font-size: 14px; }
+
+.ProfilButon { width: 85px;}
+
+.UyeSoru i { margin-right:22px !important; font-size:20px !important; }
+
+.SecenekIsaret .UyeDogru { margin-right:0px !important; color: green!important; }
+
+.SecenekIsaret .UyeYanlis { margin-right:0px !important; color: red!important; }
+
+.SecenekIsaret .UyeBos { margin-right:0px !important; color: #2E9AFE!important; }
+
+
